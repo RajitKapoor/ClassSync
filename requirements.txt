@@ -1,0 +1,34 @@
+# Django and DRF
+Django==5.0.1
+djangorestframework==3.14.0
+django-allauth==0.57.0
+django-cors-headers==4.3.1
+
+# Database (SQLite default, Postgres optional)
+psycopg2-binary==2.9.9  # For Postgres (optional)
+
+# API Documentation
+drf-spectacular==0.27.0  # OpenAPI schema generation
+
+# Channels for WebSockets (optional for real-time)
+django-channels==4.0.0
+channels-redis==4.1.0
+
+# Background tasks (optional - for zero-cost use management commands)
+django-crontab==0.7.1  # For scheduled tasks
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+
+# Code quality
+black==23.12.1
+isort==5.13.2
+flake8==6.1.0
+
+# Utilities
+python-decouple==3.8
+Pillow==10.1.0  # For file uploads
+
